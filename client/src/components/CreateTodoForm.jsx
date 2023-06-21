@@ -22,6 +22,7 @@ export const CreateTodoForm = ({username}) => {
             })
             setText("");
         }}>
+            <br></br>
             <input type = "text" onChange={e=>setText(e.target.value)} value ={text}></input>
             <button>Create</button>
         </form>
